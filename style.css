@@ -1,0 +1,36 @@
+body{
+    background-color: #e2530c;
+}
+
+/* using class tag  */
+.head{
+    color: #2323bd;
+}
+/* using id tag  */
+#bglime{
+    background-color: #86ea3f;
+}
+ /* using Element selector  */
+p{
+    color: #f0ffff;
+}
+/* Using specificity selector: */
+/* >> ID >> class >> Element  */
+#brown{
+    color: #830707;
+}
+#yellow{
+    color: #f4f40e;
+}
+.blue{
+    color : #0ddba0;
+}
+h1:hover{
+    color: #bde717;
+}
+a:first-of-type u{
+    background-color: #2276d0;
+}
+a:first-of-type span{
+    background-color: #bde717;
+}
